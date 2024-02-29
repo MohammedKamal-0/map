@@ -4,7 +4,7 @@ import { IoIosCloseCircleOutline } from "react-icons/io";
 import { useEffect, useState } from "react";
 // import "@/app/Components/slideMenu/slideMenu.css"
 import Image from 'next/image'
-import bmw from "../../assets/intercative_map.svg";
+import intercative_map from "../../assets/intercative_map.svg";
 import department_info from "../../assets/department_info.svg";
 import news from "../../assets/news.svg";
 
@@ -55,7 +55,7 @@ export default function About() {
                                                 alt:"Description of the image",
 
                                             }}
-                                            src={bmw}
+                                            src={intercative_map}
                                         />
                                         <div>
                                             <h2><span className='text-green-700 text-3xl'>Intercative Map</span></h2>
