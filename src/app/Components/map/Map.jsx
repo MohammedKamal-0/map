@@ -75,7 +75,7 @@ export default function Map() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker
+        {/* <Marker
 
           icon={
             new L.Icon({
@@ -93,7 +93,7 @@ export default function Map() {
           <Popup>
             <h1>hhhhhhhh</h1>
           </Popup>
-        </Marker>
+        </Marker> */}
         <Marker
 
           icon={
@@ -111,6 +111,25 @@ export default function Map() {
 
           <Popup>
             <h1 className='text-3xl text-green-700'>Rafidain Bank</h1>
+          </Popup>
+        </Marker>
+        <Marker
+
+          icon={
+            new L.Icon({
+              //icon pines
+              iconUrl: MarkerIcon.src,
+              iconRetinaUrl: MarkerIcon.src,
+              iconSize: [60, 41],
+              iconAnchor: [40.5, 41],
+              popupAnchor: [0, -41],
+              // shadowUrl:MarkerShadow.src,
+              shadowSize: [41, 41],
+            })}
+          position={[33.273397043362145, 44.37649099820339]}>
+
+          <Popup>
+            <h1 className='text-3xl text-green-700'>Hospital</h1>
           </Popup>
         </Marker>
 

@@ -33,9 +33,7 @@ export default function NE() {
 
                     <ul>
                         <li className='py-6 border-b-4 text-3xl'>first</li>
-                        <li className='py-6 border-b-4 text-3xl'>first</li>
-                        <li className='py-6 border-b-4 text-3xl'>first</li>
-                        <li className='py-6 border-b-4 text-3xl'>first</li>
+                        
                     </ul>
                 </div> </div>
 

@@ -31,9 +31,7 @@ if (isOpen) {
 
         <ul>
                <li className='py-6 border-b-4 text-3xl'>second</li>
-               <li className='py-6 border-b-4 text-3xl'>second</li>
-               <li className='py-6 border-b-4 text-3xl'>second</li>
-               <li className='py-6 border-b-4 text-3xl'>second</li>
+               
            </ul>
 </div> </div>
 
