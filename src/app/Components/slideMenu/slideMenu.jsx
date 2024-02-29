@@ -33,7 +33,6 @@ export default function SlideMenu() {
 
 
 
-
             <div
                 className={`absolute top-0 left-0 w-full h-full bg-gray-800 z-40 duration-300 opacity-50  ${isOpen ? "block" : "hidden"}`}  ></div>
             <div

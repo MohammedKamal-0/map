@@ -23,7 +23,7 @@ export default function NE() {
         <div>
 
 
-            <botton onClick={() => { setIsOpen(true) }} className='flex items-center cursor-pointer gap-2 '>  <h1 className='bg-green-700 rounded-[10px]  text-5xl  text-[#ffffff] p-2 mt-8 ml-2'><MdOutlineEventNote /></h1>  <h1 className='mt-8'>News & Events</h1> </botton>
+            <button onClick={() => { setIsOpen(true) }} className='flex items-center cursor-pointer gap-2 '>  <h1 className='bg-green-700 rounded-[10px]  text-5xl  text-[#ffffff] p-2 mt-8 ml-2'><MdOutlineEventNote /></h1>  <h1 className='mt-8'>News & Events</h1> </button>
 
 
             <div className={`fixed left-0 right-0 bottom-0 w-full h-0  ${isOpen ? "block" : "hidden"}`}>
