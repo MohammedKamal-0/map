@@ -2,7 +2,9 @@
 import React from 'react'
 import L, { icon } from 'leaflet'
 import { MapContainer, Marker, Popup, TileLayer, useMapEvents } from 'react-leaflet'
-import MarkerIcon from '../../../../node_modules/leaflet/dist/images/marker-icon.svg'
+// import MarkerIcon from '../../../../node_modules/leaflet/dist/images/marker-icon.svg'
+import MarkerIcon from "../../assets/marker-icon.svg";
+
 // import MarkerIcon from '../../../../node_modules/leaflet/dist/images/marker-shadow.png'
 import 'leaflet/dist/leaflet.css'
 import { useEffect, useState } from "react";
