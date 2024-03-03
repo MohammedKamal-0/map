@@ -98,10 +98,10 @@ export default function Collage() {
 
 
 
-                                    <dev className='flex items-center   mx-2'>
+                                    <div className='flex items-center   mx-2'>
                                         <h1 className='flex items-center cursor-pointer justify-between gap-2 text-3xl px-2 text-green-700 mb-8'> <BiMoneyWithdraw className='ml-2 mr-4 text-6xl ' /> Rafidain Bank </h1>
                                         <a href='https://mapcarta.com/N9957187027'><button className='text-white px-2 py-2 text-[28px] bg-green-700 rounded-[8px] mb-6'>OPEN</button></a>
-                                    </dev>
+                                    </div>
 
                                     <hr className='mt-6'></hr>
                                     <div className='flex m-6 gap-6'>

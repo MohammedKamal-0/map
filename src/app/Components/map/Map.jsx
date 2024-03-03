@@ -132,6 +132,82 @@ export default function Map() {
             <h1 className='text-3xl text-green-700'>Hospital</h1>
           </Popup>
         </Marker>
+        <Marker
+
+          icon={
+            new L.Icon({
+              //icon pines
+              iconUrl: MarkerIcon.src,
+              iconRetinaUrl: MarkerIcon.src,
+              iconSize: [60, 41],
+              iconAnchor: [40.5, 41],
+              popupAnchor: [0, -41],
+              // shadowUrl:MarkerShadow.src,
+              shadowSize: [41, 41],
+            })}
+          position={[33.270343867213676, 44.37383636791248]}>
+
+          <Popup>
+            <h1 className='text-3xl text-green-700'>Al-Khwarizmi College of Engineering</h1>
+          </Popup>
+        </Marker>
+        <Marker
+
+          icon={
+            new L.Icon({
+              //icon pines
+              iconUrl: MarkerIcon.src,
+              iconRetinaUrl: MarkerIcon.src,
+              iconSize: [60, 41],
+              iconAnchor: [40.5, 41],
+              popupAnchor: [0, -41],
+              // shadowUrl:MarkerShadow.src,
+              shadowSize: [41, 41],
+            })}
+          position={[33.27050756660125, 44.382518451374544]}>
+
+          <Popup>
+            <h1 className='text-3xl text-green-700'>College of Science for Girls</h1>
+          </Popup>
+        </Marker>
+        <Marker
+
+          icon={
+            new L.Icon({
+              //icon pines
+              iconUrl: MarkerIcon.src,
+              iconRetinaUrl: MarkerIcon.src,
+              iconSize: [60, 41],
+              iconAnchor: [40.5, 41],
+              popupAnchor: [0, -41],
+              // shadowUrl:MarkerShadow.src,
+              shadowSize: [41, 41],
+            })}
+          position={[33.27276996988473, 44.37699056735892]}>
+
+          <Popup>
+            <h1 className='text-3xl text-green-700'>the central Library</h1>
+          </Popup>
+        </Marker>
+        <Marker
+
+          icon={
+            new L.Icon({
+              //icon pines
+              iconUrl: MarkerIcon.src,
+              iconRetinaUrl: MarkerIcon.src,
+              iconSize: [60, 41],
+              iconAnchor: [40.5, 41],
+              popupAnchor: [0, -41],
+              // shadowUrl:MarkerShadow.src,
+              shadowSize: [41, 41],
+            })}
+          position={[33.27438852171108, 44.38004161753314]}>
+
+          <Popup>
+            <h1 className='text-3xl text-green-700'>College of Science</h1>
+          </Popup>
+        </Marker>
 
 
         {/* {collage.map((collage, id) => (

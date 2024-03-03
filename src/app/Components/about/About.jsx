@@ -52,13 +52,15 @@ export default function About() {
                                                 height: "100%",
                                                 // objectFit: "cover",
                                                 // borderRadius: 4,
-                                                alt:"Description of the image",
 
                                             }}
+                                            alt={"Description of the image"}
                                             src={intercative_map}
                                         />
                                         <div>
-                                            <h2><span className='text-green-700 text-3xl'>Intercative Map</span></h2>
+                                            <h2
+                                            >Intercative Map
+                                            </h2>
                                             <p className=' w-[80%] text-black mb-25'>
                                                 Includes an interactive map of the university campus and. Users can search for a specific building or department and find key directions.
                                             </p>
@@ -74,13 +76,13 @@ export default function About() {
                                                 height: "100%",
                                                 // objectFit: "cover",
                                                 // borderRadius: 4,
-                                                alt:"Description of the image",
 
                                             }}
+                                            alt='image'
                                             src={department_info}
                                         />
                                         <div>
-                                            <h2><span span className='text-green-700 text-3xl'>Department Information</span></h2>
+                                            <h2><span  className='text-green-700 text-3xl'>Department Information</span></h2>
                                             <p className=' w-[80%] text-black mb-25'>
                                                 Users can search for a specific department to learn about the majors available in that department, as well as details about the academy’s faculty members
                                             </p>
@@ -96,12 +98,13 @@ export default function About() {
                                                 height: "100%",
                                                 // objectFit: "cover",
                                                 // borderRadius: 4,
-                                                alt:"Description of the image",
+                                                
                                             }}
+                                            alt='image'
                                             src={news}
                                         />
                                         <div>
-                                            <h2><span span className='text-green-700 text-3xl'>News and Events</span></h2>
+                                            <h2><span  className='text-green-700 text-3xl'>News and Events</span></h2>
                                             <p className=' w-[80%] text-black mb-25'>
                                                 The application provides the latest university news and events relevant to students and visitors.
                                             </p>
